@@ -13,7 +13,7 @@ the final position calculated.
     We should get the position "6,6"
 
     For the input "5,5:FLFLFFRFFF"
-    We should get the position "4,1"
+    We should get the position "1,4"
 
 ## Design
 The application was built with multi-layer structure: domain layer, service layer and application layer.
