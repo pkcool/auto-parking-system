@@ -34,7 +34,7 @@ public class AutoparkingApplication implements CommandLineRunner {
         LOGGER.info("Auto parking application started with instruction: {}.", Arrays.toString(args));
 
         if (args.length != 1) {
-            LOGGER.error("Invalid argument: {}", args);
+            LOGGER.error("Invalid argument: {}, Please enter an argument, i.e. 5,5:LFLF", Arrays.toString(args));
             return;
         }
 
